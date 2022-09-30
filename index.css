@@ -1,15 +1,52 @@
 body {
-  background-color: lightblue;
+  padding-top: 60px;
+  background-color: white;
   margin: 0;
 }
 
-.header {
-  padding: 60px;
-  text-align: center;
-  background: #1abc9c;
+.nav {
+  position: fixed;
+  top: 0;
+  background: #f5a9b8;
+  width: 100%;
+}
+
+.ul {
+  list-style-type: circle;
+}
+
+ul {
+  display: block;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
+.name-container {
+  display: flex;
+  align-content: flex-end;
+  margin-left: 1rem;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fixed-header {
+  padding: 10px 0;
+  padding-left: 20px;
+  text-align: left;
+  background: #f5a9b8;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
+  top: 0;
+  position: fixed;
+  width: 100%;
 }
 .content {
   padding: 20px;
+}
+
+.me {
+  margin: 1rem;
 }
